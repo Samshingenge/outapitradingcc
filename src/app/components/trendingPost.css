@@ -1,0 +1,56 @@
+.trending {
+  border: 1px solid #eee;
+}
+
+.trending > h3 {
+  color: #333;
+  padding: 1.25rem;
+  border-bottom: 1px solid #eee;
+}
+
+.trending .trending-post {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trending .trending-post li {
+  border-bottom: 1px solid #eee;
+}
+
+.trending .trending-post li:last-child {
+  border-bottom: none;
+}
+
+.trending .trending-post li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.trending .trending-post li a:hover {
+  background-color: #f8f9fa;
+}
+
+.trending .trending-post li a .number {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  opacity: 0.1;
+  font-weight: bold;
+}
+
+.trending .trending-post li a h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.trending .trending-post li a .author {
+  font-size: 0.875rem;
+  color: #666;
+}

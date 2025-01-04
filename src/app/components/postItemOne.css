@@ -1,0 +1,87 @@
+/*--------------------------------------------------------------
+# Post Item one
+--------------------------------------------------------------*/
+.post-entry-1 {
+  margin-bottom: 30px;
+}
+
+.post-entry-1 img {
+  margin-bottom: 30px;
+}
+
+.post-entry-1 h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.post-entry-1 h2 a {
+  color: var(--color-black);
+}
+
+.post-entry-1.lg h2 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.post-meta {
+  font-size: 11px;
+  letter-spacing: 0.07rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  color: rgba(var(--color-black-rgb), 0.4);
+  margin-bottom: 10px;
+}
+
+.post-image-container {
+  position: relative;
+  width: 90%;
+  height: 0;
+  padding-bottom: 66.67%; /* 3:2 aspect ratio */
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.post-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 0;
+  transition: transform 0.3s ease;
+}
+
+.post-image-container:hover img {
+  transform: scale(1.05);
+}
+
+.author {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.author .photo {
+  margin-right: 10px;
+}
+
+.author .photo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+
+.author .name h3 {
+  font-size: 15px;
+  margin-bottom: 0;
+  padding: 0;
+  color: var(--color-black);
+  font-weight: 500;
+}
