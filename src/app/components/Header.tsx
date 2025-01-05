@@ -27,6 +27,7 @@ export default function Header() {
 
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
             <Link href="/" className="logo d-flex align-items-center">
+            <img src="/assets/img/logo.jpg" alt='logo' className="img-fluid"/>
                 <h1>Outapi Tradingcc</h1>
             </Link>
          <Nav/>   

@@ -120,8 +120,8 @@ export const heroSlides = [
   },
   {
     id: 3,
-    bgImg: 'assets/img/post-slide-3.jpg',
-    title: '9 Half-up/half-down Hairstyles for Long and Medium Hair',
+    bgImg: 'assets/img/slider2.jpg',
+    title: 'T-shirt quality printing',
     brief: `Lorem ipsum dolor sit amet, consectetur adipisicing
     elit. Quidem neque est mollitia! Beatae minima assumenda
     repellat harum vero, officiis ipsam magnam obcaecati
@@ -131,8 +131,8 @@ export const heroSlides = [
   },
   {
     id: 4,
-    bgImg: 'assets/img/post-slide-4.jpg',
-    title: '13 Amazing Poems from Shel Silverstein with Valuable Life Lessons',
+    bgImg: 'assets/img/store.jpg',
+    title: 'Best deals starts with us',
     brief: `Lorem ipsum dolor sit amet, consectetur adipisicing
     elit. Quidem neque est mollitia! Beatae minima assumenda
     repellat harum vero, officiis ipsam magnam obcaecati
