@@ -230,7 +230,7 @@
 
 .post-image-container {
   position: relative;
-  width: 100%;
+  width: 97%;
   height: 0;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   overflow: hidden;
@@ -243,7 +243,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 97%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
