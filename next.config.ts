@@ -4,7 +4,6 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   experimental: {
-    // Disable static generation for problematic routes
     workerThreads: false,
     cpus: 1
   }
